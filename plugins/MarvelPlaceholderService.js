@@ -1,4 +1,4 @@
-import apiData from './data.js'
+import apiData from './data/data.js'
 import ApiMarvelPlaceholder from './ApiMarvelPlaceholder.js'
 
 export default {
