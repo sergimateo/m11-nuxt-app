@@ -1,4 +1,4 @@
-import MarvelPlaceholderService from '~/services/MarvelPlaceholderService'
+import MarvelPlaceholderService from '~/plugins/MarvelPlaceholderService.js'
 
 export default {
   async loadCharacters({ commit }) {

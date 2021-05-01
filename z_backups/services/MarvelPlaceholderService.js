@@ -1,5 +1,6 @@
-import apiData from '@/keys/data.js'
 import ApiMarvelPlaceholder from './ApiMarvelPlaceholder.js'
+import apiData from '~/plugins/data.js'
+
 export default {
   GetCharactersPlaceholder(eventNum) {
     return ApiMarvelPlaceholder().get(
