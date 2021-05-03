@@ -1,5 +1,5 @@
 <template>
-  <v-app app>
+  <v-app id="app" app>
     <div id="bg">
       <!-- <img src="./../assets/images/background-img-light-2.jpg" alt="" /> -->
       <img src="./../assets/images/bg1-3.jpg" alt="" />
@@ -31,8 +31,6 @@
 <script></script>
 
 <style lang="css">
-@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
-
 * {
   font-family: 'Marvel', sans-serif;
 }

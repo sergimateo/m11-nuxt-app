@@ -8,8 +8,10 @@
         width="340"
         height="396"
       >
-        <v-card-title class="primary accent-1 album-title"
-          ><div class="mx-auto">{{ item.title }}</div>
+        <v-card-title class="primary accent-1 py-1"
+          ><div class="mx-auto d-flex align-center album-title">
+            <div>{{ item.title }}</div>
+          </div>
         </v-card-title>
         <v-img
           width="340"
@@ -66,7 +68,8 @@ export default {
  a los titulos de los albums */
 .album-title {
   word-break: normal;
-
+  font-size: min(max(1rem, 4vw), 22px);
   text-align: center;
+  height: 68px;
 }
 </style>

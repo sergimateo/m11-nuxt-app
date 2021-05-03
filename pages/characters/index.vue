@@ -7,8 +7,10 @@
         elevation="3"
         width="340"
       >
-        <v-card-title class="primary accent-1 mb-auto user-title"
-          ><div class="mx-auto">{{ item.name }}</div>
+        <v-card-title class="primary card-title-container accent-1 mb-auto"
+          ><div class="mx-auto align-center character-name">
+            {{ item.name }}
+          </div>
         </v-card-title>
         <v-img
           width="340"
@@ -68,8 +70,12 @@ export default {
 <style scoped>
 /* no hace falta, pero por si llegase un nombre de usuario demasiado
  largo, hacerle un word-break */
-.user-title {
+.character-name {
   word-break: normal;
   text-align: center;
+  height: 34px;
+}
+.card-title-container {
+  padding: 21px 4px;
 }
 </style>

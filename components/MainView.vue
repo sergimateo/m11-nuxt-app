@@ -2,7 +2,7 @@
   <v-container class="main">
     <v-row class="text-center">
       <v-col class="my-4">
-        <h1 class="font-weight-bold mb-2">Marvel Heroes Tribute Website</h1>
+        <h1 class="mb-2">Marvel Heroes Tribute Website</h1>
       </v-col>
       <v-col class="mt-5" cols="12">
         <!-- estas 2 tarjetas podrian ser un componente
@@ -16,8 +16,7 @@
               width="340"
               min-height="230"
             >
-              <v-card-title
-                class="primary accent-1 mb-1 text-center font-weight-bold"
+              <v-card-title class="primary accent-1 mb-1"
                 ><div class="mx-auto">
                   <h3>Most Visited Characters</h3>
                 </div></v-card-title
@@ -41,8 +40,7 @@
               width="340"
               min-height="230"
             >
-              <v-card-title
-                class="primary accent-1 mb-1 text-center font-weight-bold"
+              <v-card-title class="primary accent-1 mb-1 text-center"
                 ><div class="mx-auto"><h3>Most Visited Comic Series</h3></div>
               </v-card-title>
               <v-card-text
@@ -79,3 +77,4 @@ export default {
   },
 }
 </script>
+<style scoped></style>

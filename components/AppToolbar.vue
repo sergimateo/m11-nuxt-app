@@ -3,13 +3,13 @@
     <v-app-bar class="primary" app>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <template #extension>
-        <v-tabs align-with-title>
+        <v-tabs align-with-title class="d-none d-sm-block">
           <v-tabs-slider class="secondary"></v-tabs-slider>
           <v-tab
             v-for="item in navigationItems"
             :key="item.id"
             active-class="secondary--text"
-            class="font-weight-bold"
+            class="text--primary"
             :to="item.to"
             >{{ item.title }}</v-tab
           >
@@ -93,3 +93,10 @@ export default {
   },
 }
 </script>
+
+//
+<style lang="scss" scoped>
+// h4 {
+//   font-weight: 600;
+// }
+</style>
