@@ -9,7 +9,7 @@
           elevation="3"
           width="300"
         >
-          <v-card-title class="mx-auto mb-auto user-title"
+          <v-card-title class="mx-auto mb-auto character-title"
             >{{ item.name }}
           </v-card-title>
           <v-img
@@ -49,7 +49,7 @@ export default {
 <style scoped>
 /* no hace falta, pero por si llegase un nombre de usuario demasiado
  largo, hacerle un word-break */
-.user-title {
+.character-title {
   word-break: normal;
   text-align: center;
 }

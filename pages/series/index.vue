@@ -9,7 +9,7 @@
         height="396"
       >
         <v-card-title class="primary accent-1 py-1"
-          ><div class="mx-auto d-flex align-center album-title">
+          ><div class="mx-auto d-flex align-center serie-title">
             <div>{{ item.title }}</div>
           </div>
         </v-card-title>
@@ -37,7 +37,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-// import router from "../router";
 
 export default {
   name: 'SeriesIndex',
@@ -65,9 +64,7 @@ export default {
 }
 </script>
 <style scoped>
-/* aqui si que hace falta pasarle un word-break
- a los titulos de los albums */
-.album-title {
+.serie-title {
   word-break: normal;
   font-size: min(max(1rem, 4vw), 22px);
   text-align: center;

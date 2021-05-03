@@ -42,12 +42,3 @@ export default {
   methods: {},
 }
 </script>
-
-<style scoped>
-/* no hace falta, pero por si llegase un nombre de usuario demasiado
- largo, hacerle un word-break */
-.user-title {
-  word-break: normal;
-  text-align: center;
-}
-</style>

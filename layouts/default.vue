@@ -1,7 +1,6 @@
 <template>
   <v-app id="app" app>
     <div id="bg">
-      <!-- <img src="./../assets/images/background-img-light-2.jpg" alt="" /> -->
       <img src="./../assets/images/bg1-3.jpg" alt="" />
     </div>
     <AppToolbar></AppToolbar>

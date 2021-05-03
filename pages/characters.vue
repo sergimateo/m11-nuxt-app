@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="users">
+  <v-container fluid>
     <MainHeader :headername="headername"></MainHeader>
     <transition
       appear
@@ -26,10 +26,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.user-title {
-  word-break: normal;
-  text-align: center;
-}
-</style>

@@ -68,8 +68,6 @@ export default {
 </script>
 
 <style scoped>
-/* no hace falta, pero por si llegase un nombre de usuario demasiado
- largo, hacerle un word-break */
 .character-name {
   word-break: normal;
   text-align: center;

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="albums">
+  <v-container fluid>
     <MainHeader :headername="headername"></MainHeader>
     <transition
       appear
@@ -26,9 +26,3 @@ export default {
   computed: {},
 }
 </script>
-<style scoped>
-.album-title {
-  word-break: normal;
-  text-align: center;
-}
-</style>

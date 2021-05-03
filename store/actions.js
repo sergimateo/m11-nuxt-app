@@ -21,8 +21,6 @@ export default {
     const response = await MarvelPlaceholderService.GetComicsByCharacterPlaceholder(
       e
     )
-
-    // this.$nuxt.$loading.finish()
     commit('SET_ComicsByCharacter', response.data.data.results)
   },
 
