@@ -37,7 +37,6 @@ export default {
       comics: 'comicsByCharacterGetter',
     }),
   },
-  beforeCreate() {},
 
   methods: {},
 }

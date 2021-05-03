@@ -22,6 +22,7 @@ export default {
       e
     )
 
+    // this.$nuxt.$loading.finish()
     commit('SET_ComicsByCharacter', response.data.data.results)
   },
 

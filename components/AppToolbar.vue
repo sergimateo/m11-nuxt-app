@@ -1,7 +1,10 @@
 <template>
   <div>
     <v-app-bar class="primary" app>
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        class="d-sm-none"
+        @click="drawer = true"
+      ></v-app-bar-nav-icon>
       <template #extension>
         <v-tabs align-with-title class="d-none d-sm-block">
           <v-tabs-slider class="secondary"></v-tabs-slider>
@@ -14,17 +17,15 @@
             >{{ item.title }}</v-tab
           >
         </v-tabs>
-        <!-- <SearchUsersBar class="d-sm-none"></SearchUsersBar> -->
       </template>
-      <v-toolbar-title
+      <v-toolbar-title class="ml-3"
         ><nuxt-link v-slot="{ navigate }" to="/" custom style="cursor: pointer">
           <span role="link" @click="navigate" @keypress.enter="navigate">
-            <strong>Marvel Heroes</strong></span
+            <h3><strong>Marvel Heroes</strong></h3></span
           >
         </nuxt-link></v-toolbar-title
       >
       <v-spacer class="mx-auto"></v-spacer>
-      <!-- <SearchUsersBar class="d-none d-sm-block"></SearchUsersBar> -->
 
       <v-tooltip color="secondary" bottom>
         <template #activator="{ on, attrs }">
@@ -67,12 +68,10 @@
 
 <script>
 import { mapState } from 'vuex'
-// import SearchUsersBar from './SearchUsersBar.vue'
 
 export default {
   name: 'ApptoolBar',
 
-  // components: { SearchUsersBar },
   data: () => ({
     drawer: false,
     group: null,
@@ -93,10 +92,3 @@ export default {
   },
 }
 </script>
-
-//
-<style lang="scss" scoped>
-// h4 {
-//   font-weight: 600;
-// }
-</style>

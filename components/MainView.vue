@@ -21,15 +21,17 @@
                   <h3>Most Visited Characters</h3>
                 </div></v-card-title
               >
-              <v-card-text
-                v-for="item in characters"
-                :key="item.id"
-                class="py-1"
-              >
-                <h3>
-                  <strong>{{ item.name }}: {{ item.views }}</strong>
-                </h3>
-              </v-card-text>
+              <div>
+                <v-card-text
+                  v-for="item in characters"
+                  :key="item.id"
+                  class="py-1"
+                >
+                  <h3>
+                    <strong>{{ item.name }}: {{ item.views }}</strong>
+                  </h3>
+                </v-card-text>
+              </div>
             </v-card>
           </v-col>
           <v-col cols="auto">
@@ -43,15 +45,17 @@
               <v-card-title class="primary accent-1 mb-1 text-center"
                 ><div class="mx-auto"><h3>Most Visited Comic Series</h3></div>
               </v-card-title>
-              <v-card-text
-                v-for="item in series"
-                :key="item.id"
-                class="my-auto py-1"
-              >
-                <h3>
-                  <strong>{{ item.title }}: {{ item.views }}</strong>
-                </h3>
-              </v-card-text>
+              <div>
+                <v-card-text
+                  v-for="item in series"
+                  :key="item.id"
+                  class="my-auto py-1"
+                >
+                  <h3>
+                    <strong>{{ item.title }}: {{ item.views }}</strong>
+                  </h3>
+                </v-card-text>
+              </div>
             </v-card>
           </v-col>
         </v-row>

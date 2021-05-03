@@ -50,6 +50,7 @@ export default {
   beforeCreate() {
     this.$store.dispatch('loadSeries')
   },
+
   methods: {
     handleViewDetails(e) {
       const viewedSerie = this.series.find((item) => item.id === e)

@@ -41,7 +41,13 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
   // loading component
-  // loading: '~/components/LoadingComponent.vue',
+  loading: {
+    color: 'coral',
+    height: '10px',
+    continuous: true,
+    duration: 2000,
+  },
+  // loading: '~/components/ExampleLoadingComponent.vue',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

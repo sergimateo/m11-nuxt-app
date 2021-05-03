@@ -81,7 +81,6 @@ export default {
   methods: {
     fetchComics(e) {
       this.$store.dispatch('loadComicsByCharacter', e)
-
       this.$router.push({
         name: 'characters-id-comics',
         params: { id: e },

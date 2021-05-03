@@ -33,6 +33,7 @@
 <style lang="css">
 * {
   font-family: 'Marvel', sans-serif;
+  font-weight: bold;
 }
 
 #bg {
