@@ -4,8 +4,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - m11-nuxt',
-    title: 'm11-nuxt',
+    titleTemplate: '%s',
+    title: 'Marvel Heroes Tribute',
     htmlAttrs: {
       lang: 'en',
     },
